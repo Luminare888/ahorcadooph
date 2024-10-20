@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+
+p {
+    color: #fff;
+    margin-left: 35px;
+}
+  
+  .container {
+    width: 564px;
+    height: 666px;
+    margin: 100px auto;
+    margin-top: 30px;
+    background: url(https://i.imgur.com/YpToN3D.png);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  }
+  
+  #frase-oculta {
+    font-size: 24px;
+    letter-spacing: 10px;
+    color: #fff;
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+  
+  #intentos-restantes {
+    font-weight: bold;
+    font-size: 20px;
+    color: red;
+    margin-right: 10px;
+  }
+  
+  #input-letra {
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 18px;
+  }
+  
+  #boton-adivinar {
+    padding: 5px 15px;
+    font-size: 18px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  #mensaje {
+    margin-top: 20px;
+    font-size: 20px;
+    color: red;
+  }
+  
+  canvas {
+    margin-top: 323px;
+    margin-left: 5px;
+  }

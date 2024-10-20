@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Juego del Ahorcado</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+
+    <canvas id="ahorcado-canvas" width="200" height="200"></canvas>
+    
+    <p id="frase-oculta">_ _ _ _ _ _ _</p>
+    <table><tbody><tr><td><p>Intentos: <span id="intentos-restantes">6</span></p></td>
+    <td>
+
+    <div id="letras-adivinadas"></div>
+
+    <input type="text" id="input-letra" maxlength="1" placeholder="Escribe una letra">
+    <button id="boton-adivinar">Adivinar Letra</button></td></tr></tbody></table>
+    <p id="mensaje"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

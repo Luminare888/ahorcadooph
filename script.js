@@ -1,5 +1,5 @@
 // Selecciona la frase que quieras
-const fraseOriginal = "la gran subasta de los horrores".toLowerCase();
+const fraseOriginal = "sin imaginacion no hay halloween".toLowerCase();
 let fraseOculta = fraseOriginal.replace(/[a-záéíóúñ]/gi, "_"); // Oculta la frase
 let intentosRestantes = 6;
 let letrasAdivinadas = [];
